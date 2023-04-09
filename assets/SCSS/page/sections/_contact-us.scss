@@ -1,0 +1,62 @@
+@import"../../abstracts/variables";
+@import"../../base/reset";
+@import"../../abstracts/mixins";
+@import"../../abstracts/extends";
+@import"../../layouts/grids";
+
+main {
+    #contact-us {
+
+        width: 100%;
+        height: 35vh;
+        background-image: url(https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg.webp);
+        background-size: cover;
+        background-position-y: center center;
+        background-attachment: fixed;
+        position: relative;
+
+        @include for-desktop-up {
+            padding: 25% 0;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #1088ffb6;
+        }
+
+        .contact-content {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .get-touch {
+                text-align: center;
+                color: white;
+
+                h1 {
+                    font-size: 40px;
+                    font-weight: 400;
+                }
+
+                p {
+                    font-size: 25px;
+                    font-family: $text-font;
+                }
+
+                button {
+                    @extend .primary-btn;
+                    background-color: #ffa139;
+                    color: white;
+                    margin-top: 3%;
+                }
+            }
+
+        }
+    }
+}

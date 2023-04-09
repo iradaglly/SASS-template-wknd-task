@@ -6,7 +6,7 @@
 
 main {
     #team {
-        padding: 25% 0;
+        padding: 15% 0;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -100,25 +100,26 @@ main {
                                 }
 
 
-                                ba h1 {
-                                    font-weight: 400;
-                                    font-size: 35px;
-                                    margin-top: 3%;
-
-                                }
-
-                                p {
-                                    color: $main-color;
-                                    font-family: $text-font ;
-                                    font-size: 22px;
-                                    font-weight: 300;
-                                    letter-spacing: 0.5px;
-                                    line-height: 40px;
-                                    margin-top: 2%;
-                                }
+                               
                             }
                         }
                     }
+                }
+                h1 {
+                    font-weight: 400;
+                    font-size: 35px;
+                    margin-top: 3%;
+
+                }
+
+                p {
+                    color: $main-color;
+                    font-family: $text-font ;
+                    font-size: 22px;
+                    font-weight: 300;
+                    letter-spacing: 0.5px;
+                    line-height: 40px;
+                    margin-top: 2%;
                 }
             }
         }
