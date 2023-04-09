@@ -41,7 +41,7 @@
   transform: translateX(-50%);
 }
 
-.primary-btn, main #about .row .col-6 .about-us .learn-more-btn, main #hero .hero-content #read-more-btn {
+.primary-btn, main #forum .row .col-6 button, main #about .row .col-6 .about-us .learn-more-btn, main #hero .hero-content #read-more-btn {
   width: 200px;
   height: 70px;
   font-size: 17px;
@@ -51,10 +51,10 @@
   border-radius: 7px;
   transition: 0.5s;
 }
-.primary-btn a, main #about .row .col-6 .about-us .learn-more-btn a, main #hero .hero-content #read-more-btn a {
+.primary-btn a, main #forum .row .col-6 button a, main #about .row .col-6 .about-us .learn-more-btn a, main #hero .hero-content #read-more-btn a {
   color: white;
 }
-.primary-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover, main #hero .hero-content #read-more-btn:hover {
+.primary-btn:hover, main #forum .row .col-6 button:hover, main #about .row .col-6 .about-us .learn-more-btn:hover, main #hero .hero-content #read-more-btn:hover {
   background-color: #156ec6;
 }
 
@@ -447,7 +447,7 @@ header nav .nav-top .fa-bars {
   transform: translateX(-50%);
 }
 
-.primary-btn, main #about .row .col-6 .about-us .learn-more-btn, main #hero .hero-content #read-more-btn {
+.primary-btn, main #forum .row .col-6 button, main #about .row .col-6 .about-us .learn-more-btn, main #hero .hero-content #read-more-btn {
   width: 200px;
   height: 70px;
   font-size: 17px;
@@ -457,10 +457,10 @@ header nav .nav-top .fa-bars {
   border-radius: 7px;
   transition: 0.5s;
 }
-.primary-btn a, main #about .row .col-6 .about-us .learn-more-btn a, main #hero .hero-content #read-more-btn a {
+.primary-btn a, main #forum .row .col-6 button a, main #about .row .col-6 .about-us .learn-more-btn a, main #hero .hero-content #read-more-btn a {
   color: white;
 }
-.primary-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover, main #hero .hero-content #read-more-btn:hover {
+.primary-btn:hover, main #forum .row .col-6 button:hover, main #about .row .col-6 .about-us .learn-more-btn:hover, main #hero .hero-content #read-more-btn:hover {
   background-color: #156ec6;
 }
 
@@ -817,7 +817,7 @@ main #hero .hero-content p {
   transform: translateX(-50%);
 }
 
-.primary-btn, main #about .row .col-6 .about-us .learn-more-btn, main #hero .hero-content #read-more-btn {
+.primary-btn, main #forum .row .col-6 button, main #about .row .col-6 .about-us .learn-more-btn, main #hero .hero-content #read-more-btn {
   width: 200px;
   height: 70px;
   font-size: 17px;
@@ -827,10 +827,10 @@ main #hero .hero-content p {
   border-radius: 7px;
   transition: 0.5s;
 }
-.primary-btn a, main #about .row .col-6 .about-us .learn-more-btn a, main #hero .hero-content #read-more-btn a {
+.primary-btn a, main #forum .row .col-6 button a, main #about .row .col-6 .about-us .learn-more-btn a, main #hero .hero-content #read-more-btn a {
   color: white;
 }
-.primary-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover, main #hero .hero-content #read-more-btn:hover {
+.primary-btn:hover, main #forum .row .col-6 button:hover, main #about .row .col-6 .about-us .learn-more-btn:hover, main #hero .hero-content #read-more-btn:hover {
   background-color: #156ec6;
 }
 
@@ -1200,7 +1200,7 @@ main #about .row .col-6 .about-us .learn-more-btn {
   transform: translateX(-50%);
 }
 
-.primary-btn, main #hero .hero-content #read-more-btn, main #about .row .col-6 .about-us .learn-more-btn {
+.primary-btn, main #forum .row .col-6 button, main #hero .hero-content #read-more-btn, main #about .row .col-6 .about-us .learn-more-btn {
   width: 200px;
   height: 70px;
   font-size: 17px;
@@ -1210,10 +1210,10 @@ main #about .row .col-6 .about-us .learn-more-btn {
   border-radius: 7px;
   transition: 0.5s;
 }
-.primary-btn a, main #hero .hero-content #read-more-btn a, main #about .row .col-6 .about-us .learn-more-btn a {
+.primary-btn a, main #forum .row .col-6 button a, main #hero .hero-content #read-more-btn a, main #about .row .col-6 .about-us .learn-more-btn a {
   color: white;
 }
-.primary-btn:hover, main #hero .hero-content #read-more-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover {
+.primary-btn:hover, main #forum .row .col-6 button:hover, main #hero .hero-content #read-more-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover {
   background-color: #156ec6;
 }
 
@@ -1521,7 +1521,7 @@ main #service .row .col-4 p {
   transform: translateX(-50%);
 }
 
-.primary-btn, main #hero .hero-content #read-more-btn, main #about .row .col-6 .about-us .learn-more-btn {
+.primary-btn, main #forum .row .col-6 button, main #hero .hero-content #read-more-btn, main #about .row .col-6 .about-us .learn-more-btn {
   width: 200px;
   height: 70px;
   font-size: 17px;
@@ -1531,10 +1531,10 @@ main #service .row .col-4 p {
   border-radius: 7px;
   transition: 0.5s;
 }
-.primary-btn a, main #hero .hero-content #read-more-btn a, main #about .row .col-6 .about-us .learn-more-btn a {
+.primary-btn a, main #forum .row .col-6 button a, main #hero .hero-content #read-more-btn a, main #about .row .col-6 .about-us .learn-more-btn a {
   color: white;
 }
-.primary-btn:hover, main #hero .hero-content #read-more-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover {
+.primary-btn:hover, main #forum .row .col-6 button:hover, main #hero .hero-content #read-more-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover {
   background-color: #156ec6;
 }
 
@@ -1809,4 +1809,705 @@ main #site .count .col p {
   color: white;
   letter-spacing: 0.5px;
   font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+.icon-style, header nav .nav-top .nav_right .adress .icon i, header nav .nav-top .nav_right .number .icon i, header nav .nav-top .nav_right .email .icon i {
+  font-size: 23px;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #1089ff;
+  margin-right: 10px;
+}
+
+.sign-style, main #hero .fa-arrow-right, main #hero .fa-arrow-left {
+  font-size: 2em;
+  background-color: white;
+  padding: 25px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  margin: 0 10px;
+  transition: 0.3s;
+  display: none;
+  position: absolute;
+}
+
+.sign-hover, main #hero .fa-arrow-right:hover, main #hero .fa-arrow-left:hover {
+  background-color: #1089ff;
+  color: white;
+}
+
+.line-style, main #hero .line-1, main #hero .line-2 {
+  width: 25px;
+  position: absolute;
+  bottom: 0;
+  margin: 3% 0%;
+  transform: translateX(-50%);
+}
+
+.primary-btn, main #forum .row .col-6 button, main #hero .hero-content #read-more-btn, main #about .row .col-6 .about-us .learn-more-btn {
+  width: 200px;
+  height: 70px;
+  font-size: 17px;
+  background-color: #1089ff;
+  border: none;
+  letter-spacing: 4px;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.primary-btn a, main #forum .row .col-6 button a, main #hero .hero-content #read-more-btn a, main #about .row .col-6 .about-us .learn-more-btn a {
+  color: white;
+}
+.primary-btn:hover, main #forum .row .col-6 button:hover, main #hero .hero-content #read-more-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover {
+  background-color: #156ec6;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .col-md-1 {
+    width: 8.3333333333%;
+  }
+  .col-md-2 {
+    width: 16.6666666667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-5 {
+    width: 41.6666666667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3333333333%;
+  }
+  .col-md-11 {
+    width: 91.6666666667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 75%;
+  }
+  .col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.3333333333%;
+  }
+  .col-sm-11 {
+    width: 91.6666666667%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 75%;
+  }
+  .col-xs-1 {
+    width: 8.3333333333%;
+  }
+  .col-xs-2 {
+    width: 16.6666666667%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.3333333333%;
+  }
+  .col-xs-5 {
+    width: 41.6666666667%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.3333333333%;
+  }
+  .col-xs-8 {
+    width: 66.6666666667%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.3333333333%;
+  }
+  .col-xs-11 {
+    width: 91.6666666667%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+main #destination {
+  padding: 6% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main #destination .destination-heading {
+  padding: 3% 0;
+  text-align: center;
+}
+main #destination .destination-heading span {
+  font-family: "Dancing Script", cursive;
+  font-size: 23px;
+  color: #1089ff;
+  font-weight: 500;
+}
+main #destination .destination-heading h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+main #destination .destination-heading .border-line {
+  width: 75px;
+  border-bottom: 3px solid #1089ff;
+  margin: 2% 0;
+  margin-left: 48%;
+}
+main #destination .row .col-4 {
+  padding: 0 20px;
+  height: 450px;
+  margin-bottom: 3%;
+}
+main #destination .row .col-4 .card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+  height: 100%;
+}
+main #destination .row .col-4 .card img {
+  width: 100%;
+}
+main #destination .row .col-4 .card h1 {
+  font-weight: 400;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+main #destination .row .col-4 .card h1 i {
+  color: #1089ff;
+  margin-right: 2%;
+  font-size: 18px;
+}
+main #destination .row .col-4 .card span {
+  color: gray;
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-top: 3%;
+  margin-left: 6%;
+}
+main #destination .row .col-4 .card #price {
+  background-color: #1089ff;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 7px;
+  margin-left: 30%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+.icon-style, header nav .nav-top .nav_right .adress .icon i, header nav .nav-top .nav_right .number .icon i, header nav .nav-top .nav_right .email .icon i {
+  font-size: 23px;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #1089ff;
+  margin-right: 10px;
+}
+
+.sign-style, main #hero .fa-arrow-right, main #hero .fa-arrow-left {
+  font-size: 2em;
+  background-color: white;
+  padding: 25px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  margin: 0 10px;
+  transition: 0.3s;
+  display: none;
+  position: absolute;
+}
+
+.sign-hover, main #hero .fa-arrow-right:hover, main #hero .fa-arrow-left:hover {
+  background-color: #1089ff;
+  color: white;
+}
+
+.line-style, main #hero .line-1, main #hero .line-2 {
+  width: 25px;
+  position: absolute;
+  bottom: 0;
+  margin: 3% 0%;
+  transform: translateX(-50%);
+}
+
+.primary-btn, main #forum .row .col-6 button, main #hero .hero-content #read-more-btn, main #about .row .col-6 .about-us .learn-more-btn {
+  width: 200px;
+  height: 70px;
+  font-size: 17px;
+  background-color: #1089ff;
+  border: none;
+  letter-spacing: 4px;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.primary-btn a, main #forum .row .col-6 button a, main #hero .hero-content #read-more-btn a, main #about .row .col-6 .about-us .learn-more-btn a {
+  color: white;
+}
+.primary-btn:hover, main #forum .row .col-6 button:hover, main #hero .hero-content #read-more-btn:hover, main #about .row .col-6 .about-us .learn-more-btn:hover {
+  background-color: #156ec6;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .col-md-1 {
+    width: 8.3333333333%;
+  }
+  .col-md-2 {
+    width: 16.6666666667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-5 {
+    width: 41.6666666667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3333333333%;
+  }
+  .col-md-11 {
+    width: 91.6666666667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 75%;
+  }
+  .col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.3333333333%;
+  }
+  .col-sm-11 {
+    width: 91.6666666667%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 75%;
+  }
+  .col-xs-1 {
+    width: 8.3333333333%;
+  }
+  .col-xs-2 {
+    width: 16.6666666667%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.3333333333%;
+  }
+  .col-xs-5 {
+    width: 41.6666666667%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.3333333333%;
+  }
+  .col-xs-8 {
+    width: 66.6666666667%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.3333333333%;
+  }
+  .col-xs-11 {
+    width: 91.6666666667%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+main #forum .row {
+  width: 100%;
+  height: 50vh;
+}
+main #forum .row .col-6 {
+  height: 100%;
+  padding: 0 20px;
+}
+main #forum .row .col-6 .img {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg.webp);
+  background-size: cover;
+  background-position: center;
+}
+main #forum .row .col-6 .row-1 {
+  display: flex;
+}
+main #forum .row .col-6 .row-1 input {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #d8dde2;
+}
+main #forum .row .col-6 .row-1 p {
+  color: gray;
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-top: 3%;
+}
+main #forum .row .col-6 .col-12 {
+  padding: 0 20px;
+  padding-right: 10%;
+}
+main #forum .row .col-6 .col-12 input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #d8dde2;
+}
+main #forum .row .col-6 .col-12 p {
+  color: gray;
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-top: 3%;
+}
+main #forum .row .col-6 .col-12 #note {
+  height: 200px;
+}
+main #forum .row .col-6 button {
+  margin-left: 3%;
+  margin-top: 3%;
 }/*# sourceMappingURL=main.css.map */
