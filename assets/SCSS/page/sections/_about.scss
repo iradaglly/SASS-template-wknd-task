@@ -7,6 +7,16 @@
 main {
     #about {
         padding: 6% 0;
+        @include for-desktop-up {
+            padding:15% 0;
+        }
+       @include for-tablet-portrait-up{
+        padding: 15% 0;
+       }
+       @include for-phone-only
+       {
+        padding: 50% 0;
+       }
 
         .row {
             width: 100%;
