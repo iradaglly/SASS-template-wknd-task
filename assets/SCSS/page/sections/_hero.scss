@@ -1,0 +1,101 @@
+@import"../../abstracts/variables";
+@import"../../base/reset";
+@import"../../abstracts/extends";
+@import"../../abstracts/mixins";
+@import"../../layouts/grids";
+
+body {
+    height: 200vh;
+}
+
+main {
+    width: 100%;
+
+    #hero {
+        height:100vh;
+        width: 100%;
+        background-image: url(https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg.webp);
+        background-position: top;
+        background-size: cover;
+        position: relative;
+        transition: 1s;
+      
+
+        &:hover>.fa-solid {
+            display: block;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+            background: rgba(0, 0, 0, 0.213);
+        }
+
+        .fa-arrow-right {
+            @extend .sign-style;
+            top: 50%;
+            right: 0;
+
+            &:hover {
+                @extend .sign-hover
+            }
+        }
+
+        .fa-arrow-left {
+            @extend .sign-style;
+            top: 50%;
+
+            &:hover {
+                @extend .sign-hover
+            }
+        }
+
+        .line-1 {
+            border-bottom: 5px solid white;
+            @extend .line-style;
+            left: 50%;
+        }
+
+        .line-2 {
+            @extend .line-style;
+            left: 52%;
+            border-bottom: 5px solid $main-color;
+        }
+
+        .hero-content {
+            text-align: center;
+            position: absolute;
+            color: white;
+            padding: 0 3%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            h1 {
+                font-size: 4em;
+                font-weight: 400;
+                @include for-tablet-portrait-up {
+                    font-size: 3em;
+                }
+            }
+
+            p {
+                font-family: $text-font;
+                font-size: 1.4em;
+                font-weight: 300;
+                line-height: 35px;
+                margin-bottom: 3%;
+                @include for-tablet-portrait-up {
+                    font-size: 1em
+                }
+            }
+
+            #read-more-btn {
+               @extend .primary-btn;
+            }
+        }
+    }
+}

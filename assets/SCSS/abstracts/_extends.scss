@@ -1,0 +1,52 @@
+.icon-style {
+    font-size: 23px;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: $main-color;
+    margin-right: 10px;
+}
+
+.sign-style {
+    font-size: 2em;
+    background-color: white;
+    padding: 25px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    margin: 0 10px;
+    transition: .3s;
+    display: none;
+    position: absolute;
+}
+
+.sign-hover {
+    background-color: $main-color;
+    color: white;
+}
+
+.line-style {
+    width: 25px;
+    position: absolute;
+    bottom: 0;
+    margin: 3% 0%;
+    transform: translateX(-50%);
+}
+
+.primary-btn {
+    width: 250px;
+    height: 70px;
+    font-size: 17px;
+    background-color: $main-color;
+    border: none;
+    letter-spacing: 4px;
+    border-radius: 7px;
+    transition: .5s;
+
+    a {
+        color: white;
+    }
+
+    &:hover {
+        background-color: #156ec6;
+    }
+}
