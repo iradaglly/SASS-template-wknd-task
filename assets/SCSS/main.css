@@ -727,10 +727,22 @@ main #hero .fa-arrow-left {
 main #hero .line-1 {
   border-bottom: 5px solid white;
   left: 50%;
+  margin-right: 3%;
+}
+@media (max-width: 992px) {
+  main #hero .line-1 {
+    margin-right: 5%;
+  }
 }
 main #hero .line-2 {
-  left: 52%;
+  margin-left: 3%;
+  left: 50%;
   border-bottom: 5px solid #1089ff;
+}
+@media (max-width: 992px) {
+  main #hero .line-2 {
+    margin-left: 5%;
+  }
 }
 main #hero .hero-content {
   text-align: center;
