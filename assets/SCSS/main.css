@@ -3602,4 +3602,70 @@ main #contact-us .contact-content .get-touch button {
   background-color: #ffa139;
   color: white;
   margin-top: 3%;
+}
+main #contact-us .contact-content .get-touch button:hover {
+  background-color: #d47f1e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+footer {
+  padding: 6% 0;
+}
+footer .col-3 {
+  padding: 0 15px;
+}
+footer .col-3 p {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  color: gray;
+  font-weight: 300;
+  line-height: 30px;
+}
+footer .col-3 a {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  color: #1089ff;
+  padding-top: 6%;
+  transition: 0.5s;
+}
+footer .col-3 a:hover {
+  text-decoration: underline;
+}
+footer .col-3 img {
+  width: 120px;
+  height: 90px;
+}
+footer .col-3 h1 {
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 2px solid #1089ff;
+  width: 110px;
+}
+footer .col-3 ul li {
+  line-height: 40px;
+}
+footer span {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  color: gray;
+  font-weight: 300;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+footer span a {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  color: #1089ff;
+  transition: 0.5s;
+}
+footer span a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */

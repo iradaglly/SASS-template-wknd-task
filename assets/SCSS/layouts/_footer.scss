@@ -1,0 +1,70 @@
+@import"../abstracts/variables";
+@import"../base/reset";
+
+footer {
+    padding: 6% 0;
+
+    .col-3 {
+        padding: 0 15px;
+
+        p {
+            font-size: 20px;
+            font-family: $text-font;
+            color: gray;
+            font-weight: 300;
+            line-height: 30px;
+        }
+
+        a {
+            font-size: 20px;
+            font-family: $text-font;
+            color: $main-color;
+            padding-top: 6%;
+            transition: .5s;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        img {
+            width: 120px;
+            height: 90px;
+        }
+
+        h1 {
+            font-size: 20px;
+            font-weight: 400;
+            border-bottom: 2px solid $main-color;
+            width: 110px;
+        }
+
+        ul {
+            li {
+                line-height: 40px;
+            }
+        }
+
+    }
+
+    span {
+        font-size: 20px;
+        font-family: $text-font;
+        color: gray;
+        font-weight: 300;
+        margin-left: 25%;
+        margin-top: 5%;
+
+        a {
+            font-size: 20px;
+            font-family: $text-font;
+            color: $main-color;
+            transition: .5s;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+        }
+    }
+}
